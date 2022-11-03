@@ -123,7 +123,7 @@ $(document).ready(function() {
 		$('#infobox').slideDown();
 		$('#bside').css('height', '80vh');
 		$("#note").html("Hide Note and Usage");	
-		$('#note').attr("class","btn btn-sm btn-warning navbar-text pull-right")
+		$('#note').attr("class","btn btn-xs btn-warning navbar-text pull-right")
 		$('#note').attr("id","hide")
 	});
 	
@@ -133,7 +133,7 @@ $(document).ready(function() {
 		$('#infobox2').slideDown();
 		$('#bside').css('height', '92vh');
 		$("#hide").html("Note and Usage");	
-		$('#hide').attr("class","btn btn-sm btn-info navbar-text pull-right")
+		$('#hide').attr("class","btn btn-xs btn-info navbar-text pull-right")
 		$('#hide').attr("id","note")
 	});
 	
