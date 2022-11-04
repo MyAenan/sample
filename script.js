@@ -315,7 +315,7 @@ function addBattleEntry(bid, opp, exp, head) {
 	} else {
 		var html = '<tr class="btitem bg-'+toLower(head)+'" id="bt_'+bid+'">' +
 						'<td class="name">' + opp + '</td>' +
-						'<td class="name" style="text-align:left; font-size:12px;">' + head + '</td>' +
+						'<td class="name" style="text-align:left; font-size:12px; text-transform: uppercase;">' + head + '</td>' +
 						'<td class="battles" style="text-align:center">1</td>' +
 						'<td class="exp" data-num="' + exp + '" style="text-align:center">' + numberWithCommas(exp) + '</td>' +
 						'<td class="total" data-num="' + exp + '" style="text-align:center">' + numberWithCommas(exp) + '</td>' +
