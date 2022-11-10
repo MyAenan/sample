@@ -175,7 +175,9 @@ function createAlert(type,message) {
 	}
 	var alert = '' +
 		'<div class="alert alert-' + toLower(aclass) + ' alert-dismissible fade show" style="padding-right: 8px;" role="alert">' +
-				'<span badge text-bg-light class="close">×</span>' +
+				'<button class="close" aria-label="Close" data-dismiss="alert" type="button">' +
+				'<span aria-hidden="true">×</span>' +
+			'</button>' +
 			'<strong>' + ucfirst(type) + '!</strong> ' +
 			message +
 		'</div>';
