@@ -141,6 +141,7 @@ $(document).ready(function() {
 	
 	//Load Solution button
 	$(document).on('click', "#loadsolution", function(e) {
+		$('#targetbox').fadeIn();
 		$('#battletable').fadeIn();
 		removeAlert();
 		loadSolution();
