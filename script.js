@@ -255,7 +255,7 @@ function findPossibleCombo() {
 	if(target == 0) {
 		//console.log('Final Solution: ' + solution);
 		solvedsoluton = solution;
-		createAlert('success','A solution has been calculated for this target exp.<br><br><button id="loadsolution" class="btn btn-success">Load Solution</button>');
+		createAlert('success','A solution has been calculated for this target exp.<br><br><button id="loadsolution" class="btn btn-sm btn-success">Load Solution</button>');
 	} else {
 		console.log('No Solution');
 		solvedsoluton = '';
