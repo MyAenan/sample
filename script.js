@@ -174,7 +174,7 @@ function createAlert(type,message) {
 		default: aclass='info'; break;
 	}
 	var alert = '' +
-		'<div class="alert alert-' + toLower(aclass) + ' alert-dismissible fade show" style="padding: 0px 8px 0 8px;" role="alert">' +
+		'<div class="alert alert-' + toLower(aclass) + ' alert-dismissible fade show" style="padding-right: 8px;" role="alert">' +
 			'<button class="btn-close" aria-label="Close" data-bs-dismiss="alert" type="button">' +
 				'<span aria-hidden="true"></span>' +
 			'</button>' +
