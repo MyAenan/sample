@@ -25,7 +25,7 @@ body {
 
 #bside {
     /* width: 66%; */
-    border-left: 3px solid red;
+    border-left: 3px solid #acacac;
     text-align: center;
     height: 92vh;
 	margin-left: 34%;
