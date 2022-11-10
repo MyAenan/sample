@@ -18,7 +18,7 @@ body {
     box-sizing: border-box;
     max-height: 100%;
     /*overflow-x: scroll;*/
-    margin-top: 5px;
+    margin-top: 12px;
 }
 
 #aside {
