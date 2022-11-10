@@ -123,9 +123,16 @@ body {
 }
 
 .input-group-text {
-background-color:#555555;
+background-color: #555555;
 color: #FFF;
 }
+
+.form-control:focus{
+    border-color: #555555;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
 
 #clearsol {
 	font-size: 20px;
