@@ -319,7 +319,7 @@ function addBattleEntry(bid, opp, exp, head) {
 						'<td class="battles" style="text-align:center">1</td>' +
 						'<td class="exp" data-num="' + exp + '" style="text-align:center">' + numberWithCommas(exp) + '</td>' +
 						'<td class="total" data-num="' + exp + '" style="text-align:center">' + numberWithCommas(exp) + '</td>' +
-						'<td class="btclose"><span badge text-bg-light>×</span></td>' +
+						'<td class="btclose"><span badge text-bg-light class="close">×</span></td>' +
 					'</tr>';
 		$('#battletable').append(html);
 	}
