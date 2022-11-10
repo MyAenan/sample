@@ -130,12 +130,12 @@ color: #FFF;
 
 .btn-close {
   box-sizing: content-box;
-  width: 0.03em;
-  height: 0.03em;
-  padding: .05em .05em;
+  width: 0.01em;
+  height: 0.01em;
+  padding: .02em .02em;
   color: #000;
   border: 0;
-  border-radius: .05rem;
+  border-radius: .02rem;
   opacity: .5;
 }
 
