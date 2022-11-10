@@ -127,18 +127,18 @@ color: #FFF;
     box-shadow: none;
 }
 
-/*
+
 .btn-close {
   box-sizing: content-box;
-  width: 0.1em;
-  height: 0.1em;
-  padding: .1em .1em;
+  width: 0.03em;
+  height: 0.03em;
+  padding: .05em .05em;
   color: #000;
   border: 0;
-  border-radius: .1rem;
+  border-radius: .05rem;
   opacity: .5;
 }
-*/
+
 
 #clearsol {
 	font-size: 20px;
