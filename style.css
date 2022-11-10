@@ -100,7 +100,8 @@ body {
     color: #000;
     text-align: center;
     float: none;
-    width: 100%;	
+    width: 100%;
+    cursor: pointer;	
 }
 
 .bg-ultimate { background-color: #FFEBEE; }
