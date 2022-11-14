@@ -45,6 +45,56 @@
 
 </nav>
 
+      
+	<!-- Modal Notes-->
+<div class="modal fade" id="notes" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel1">Note and Usage</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <a style="text-decoration:none" data-toggle="tooltip" data-placement="bottom" title="The code and design is came from Psyduck's Exp Calculator of D1g1t"> Note: <b >This is "Unofficial/Fan made Exp Calculator for DelugeRPG (up to 100M Exp) - <small>A fork of <a href="https://psyduck.pkmn.pw/expcalc/" target="_blank" style="color:#F00;">Psyduck's Exp Calculator</a></small>".</b></a>
+	      
+	      <h4 style="padding-left:25px; font-weight:bold;" align="left">
+          <img src="images/magikarp.png" style="display:inline-block; border: 1px solid #222; border-radius: 90px;" />&nbsp;&nbsp;&nbsp;How To Use?
+        </h4>
+        <br>
+        <ol>
+          <li>Left Panel - Calculator and Right Panel - List of Wild Pokemon & Trainers Exp.</li>
+          <p>
+          </p>
+          <li> Enter your Current Exp and your Target Exp. Note: It assumes you have already beaten all regions and that your pokemon is at level 100.</li>
+          <p>
+          </p>
+          <li>It will shows solution button. You can battle any other trainers that give the same amount of exp as those in the suggested solution.</li>
+          <p>
+          </p>
+          <li>If a solution is not automatically generated or Exp to target is not turn to 0, Add some exp from the trainer list on the right by clicking on them. </li>
+          <p>
+          </p>
+          <li>You can click the name of the trainer and pokemon in right panel. It will shows a popover that will redirect to the trainers and map for wild pokemon. <br>
+            <small>
+              <i>*(Comp-Battle) - Find a player/trainer who has one pokemon on his/her team with designated level given and battle it.</i>
+            </small>
+          </li>
+          <p>
+          </p>
+          <img src="images/how5.jpg" width="100%">
+          <p>
+          </p>
+          <li>If you want other EXP Calculator for DelugeRPG - visit <a href="https://psyduck.pkmn.pw/expcalc/" target="_blank" style="color:#F00;">Psyduck Exp Calculator</a> and <a href="https://simplecalc.github.io/expcalc/" target="_blank" style="color:#F00;">Tolga's Exp Calculator (Outdated)</a>.</li>
+        </ol>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div> -->
+	    
+    </div>
+  </div>
+</div>
 
 	
 	
@@ -66,30 +116,6 @@
 <div id="mainpage">
 	<div id="aside" style="padding: 0px 8px 0 8px;">
 		<form class="form-inline" id="entryform">
-			
-	
-			<!--
-					<div class="input-group input-group-sm mb-4">
-		<span class="input-group-text">Current Exp</span>
-  <input type="number" class="form-control" id="currentExp" name="currentExp" value="0" min="100000" max="100000000" size="10">
-  <span class="input-group-text">Target Exp</span>
-  <input type="number" class="form-control" id="targetExp" name="targetExp" value="0" min="100000" max="100000000" size="10">
-</div>
-	-->
-		
-<!--
-					
-			<div class="input-group input-group-sm mb-4">
-  <span class="input-group-text">Current Exp: </span>
-  <input type="number" class="form-control" id="currentExp" name="currentExp" value="0" min="100000" max="100000000" size="10">
-</div>
-		
-						<div class="input-group input-group-sm mb-4">
-  <span class="input-group-text" style="width:20px;">Target Exp: </span>
-   <input type="number" class="form-control" id="targetExp" name="targetExp" value="0" min="100000" max="100000000" size="10">
-</div>
-		
--->
 	
 <div class="input-group input-group-sm mb-3">
   <span class="input-group-text" style="width:100px;">Current Exp: </span>
@@ -149,67 +175,6 @@
     <!-- Footer Aside 
         <div style="bottom: 0px;clear: both; width:100%; text-align:center; padding:6px; font-size:13px; background-color:#222; color:#FFF; border-bottom:1px solid #666; position: fixed;">Thanks to "Mr.Clean" for gathering data about exp on each trainers and wild pokemon. | If you find  bugs / errors, comment on this forum link ( <a href="https://www.delugerpg.net/viewtopic.php?f=6&t=16917" target="_blank">https://www.delugerpg.net/viewtopic.php?f=6&t=16917 </a>)</div> 
        Footer Aside --> 
-      
-	<!-- Modal Notes-->
-<div class="modal fade" id="notes" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel1">Note and Usage</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <a style="text-decoration:none" data-toggle="tooltip" data-placement="bottom" title="The code and design is came from Psyduck's Exp Calculator of D1g1t"> Note: <b >This is "Unofficial/Fan made Exp Calculator for DelugeRPG (up to 100M Exp) - <small>A fork of <a href="https://psyduck.pkmn.pw/expcalc/" target="_blank" style="color:#F00;">Psyduck's Exp Calculator</a></small>".</b></a>
-	      
-	      <h4 style="padding-left:25px; font-weight:bold;" align="left">
-          <img src="images/magikarp.png" style="display:inline-block; border: 1px solid #222; border-radius: 90px;" />&nbsp;&nbsp;&nbsp;How To Use?
-        </h4>
-        <br>
-        <ol>
-          <li>Left Panel - Calculator and Right Panel - List of Wild Pokemon & Trainers Exp.</li>
-          <p>
-          </p>
-          <img src="images/how.jpg" width="100%">
-          <p>
-          </p>
-          <li>Type your pokemon's current experience. Note: Target Exp is already assigned as 100,000 value.</li>
-          <p>
-          </p>
-          <img src="images/how1.jpg" width="100%">
-          <p>
-          </p>
-          <li>It will shows solution button. Battle only pokemon and trainer(s) which generated by the calculator.</li>
-          <p>
-          </p>
-          <img src="images/how2.jpg" width="100%">
-          <hr style="border:1px solid #222;">
-          <img src="images/how2-1.jpg" width="100%">
-          <p>
-          </p>
-          <li>If no possible solution generate, try to battle wild pokemon in map. (It's better to calculate first before you get your ideal experience). </li>
-          <p>
-          </p>
-          <li>You can click the trainer and pokemon in right panel. It will shows a popover that will redirect to the trainers and map for wild pokemon. <br>
-            <small>
-              <i>*(Comp-Battle) - Find a player/trainer who has one pokemon on his/her team with designated level given and battle it.</i>
-            </small>
-          </li>
-          <p>
-          </p>
-          <img src="images/how5.jpg" width="100%">
-          <p>
-          </p>
-          <li>If you want other EXP Calculator for DelugeRPG - visit <a href="https://psyduck.pkmn.pw/expcalc/" target="_blank" style="color:#F00;">Psyduck Exp Calculator</a> and <a href="https://simplecalc.github.io/expcalc/" target="_blank" style="color:#F00;">Tolga's Exp Calculator (Outdated)</a>.</li>
-        </ol>
-      </div>
-      <!-- <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
-      </div> -->
-	    
-    </div>
-  </div>
-</div>
 
 
 		<!-- Modal About-->
