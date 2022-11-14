@@ -113,7 +113,7 @@ $(document).ready(function() {
 			}
 		}
 	});
-	$('#entryform input:first-of-type').trigger('change');
+	//$('#entryform input:first-of-type').trigger('change');
 	
 	$('[data-toggle="tooltip"]').tooltip();
 	
