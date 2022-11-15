@@ -116,6 +116,7 @@ $(document).ready(function() {
 	//$('#entryform input:first-of-type').trigger('change');
 	
 	$('[data-toggle="tooltip"]').tooltip();
+	$('[data-bs-toggle="popover"]').popover();  
 	
     //note
 	$(document).on('click', "#note", function(e) {
