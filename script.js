@@ -6,8 +6,9 @@ var eset = 25;
 var load_sums_wait = 0;
 
 $(document).ready(function() {
-	$('[data-bs-toggle="popover"]').popover();  
-	 $('[data-bs-toggle="popover"]').popover();  
+	const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
 	$.getJSON('expdata.json?v=20190919', function(data) {
 		var temphead = '';
 		data.forEach(function (batt,i) {
