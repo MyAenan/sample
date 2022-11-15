@@ -123,24 +123,17 @@
 </div>
 	
 	
+	<a class="btn btn-primary example-popover" role="button" tabindex="0"  title="Content demonstration popover"
+>Trigger popover with other html content</a>
+
+<div hidden>
+  <div id="mypopover-content">
+    <p>This is the custom popover html content that should be inserted into my example popover</p>
+    <button type="button" class="btn btn-primary">and the button as well</button>
+  </div>
+</div>
 		
-		   <div hidden >
-                <div data-name="popover-content">
-                    <div class="input-group">
-                    <input type="text" class="form-control form-control-sm" placeholder="Search" name="search">
-                    <div class="input-group-btn">
-                        <button class="btn btn-danger" type="submit">
-                        <i class="bi bi-search fa fa-search"></i>
-                        </button>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            
-            <a id="example" tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" title="Default: Html inside popover" >Html inside popover</a>
-           
-		
-		
+	
 		
 		<a type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover"
 data-bs-html="true" data-bs-sanitize="false"
