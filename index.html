@@ -128,8 +128,17 @@
 
 <div hidden>
   <div id="mypopover-content">
-    <p>This is the custom popover html content that should be inserted into my example popover</p>
-    <button type="button" class="btn btn-primary">and the button as well</button>
+    <div class="container text-center">
+  <div class="row" >
+    <div class="col" >
+      <button type="button" class="btn btn-outline-info" style="border-radius: 10px; border: 2px solid #2196F3; font-weight: bold;--bs-btn-padding-y: 0.5rem; --bs-btn-font-size: 14px;">Game Patreon</button>
+    </div>
+    <div class="col">
+    <div class="paybutton" to="bitcoincash:pp3a2qp6708x37gu3wmy7fwta7r6ek2c8srmr5uszw" text="Buy Me a Lumpia" success-text="Thank You..."></div>
+    </div>
+  </div>
+
+</div>
   </div>
 </div>
 		
@@ -144,20 +153,7 @@ data-bs-content='<div class="popover fs-6" role="tooltip">
 
 		
 		
-	<button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-html="true" data-bs-content='<div class="container text-center" style="border: 2px solid #2196F3;">
-  <div class="row" style="border: 2px solid #2196F3;">
-    <div class="col" style="border: 2px solid #2196F3;">
-      <button type="button" class="btn btn-outline-info" style="border-radius: 10px; border: 2px solid #2196F3; font-weight: bold;--bs-btn-padding-y: 0.5rem; --bs-btn-font-size: 14px;">Game Patreon</button>
-    </div>
-    <div class="col" style="border: 2px solid #2196F3;">
-    <div class="paybutton" to="bitcoincash:pp3a2qp6708x37gu3wmy7fwta7r6ek2c8srmr5uszw" text="Buy Me a Lumpia" success-text="Thank You..."></div>
-    </div>
-  </div>
-
-</div>'>
-  Popover on top
-</button>
-		
+	
 		
 		<button type="button" class="example btn btn-sm btn-secondary"
         data-bs-toggle="popover" data-bs-placement="right"
