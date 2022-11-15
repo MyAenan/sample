@@ -5,10 +5,11 @@ var sumcache = [];
 var eset = 25;
 var load_sums_wait = 0;
 
-$(document).ready(function() {
-	const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
 const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
 
+$(document).ready(function() {
+	
 	$.getJSON('expdata.json?v=20190919', function(data) {
 		var temphead = '';
 		data.forEach(function (batt,i) {
