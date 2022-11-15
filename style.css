@@ -3,6 +3,11 @@ body {
     font-size: 14px;
 }
 
+.example {
+position: fixed;
+bottom: 0px;
+left: 0px;
+}
 
 #mainpage {
     min-height: 90%;
