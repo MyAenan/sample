@@ -12,7 +12,16 @@ var popover = new bootstrap.Popover(document.querySelector('.example-popover'), 
   content: document.getElementById('mypopover-content'),
 })
 		
-		
+const toastTrigger = document.getElementById('liveToastBtn')
+const toastLiveExample = document.getElementById('liveToast')
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', () => {
+    const toast = new bootstrap.Toast(toastLiveExample)
+
+    toast.show()
+  })
+}
+
 		
 $(document).ready(function() {
 	
