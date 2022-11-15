@@ -10,6 +10,23 @@ var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
   return new bootstrap.Popover(popoverTriggerEl)
 })
 
+ var options = {
+                        html: true,
+                        title: "Optional: HELLO(Will overide the default-the inline title)",
+                        //html element
+                        //content: $("#popover-content")
+                        content: $('[data-name="popover-content"]')
+                        //Doing below won't work. Shows title only
+                        //content: $("#popover-content").html()
+            
+                    }
+                    var exampleEl = document.getElementById('example')
+                    var popover = new bootstrap.Popover(exampleEl, options)
+                })
+		
+		
+		
+		
 $(document).ready(function() {
 	
 	$.getJSON('expdata.json?v=20190919', function(data) {
