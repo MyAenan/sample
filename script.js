@@ -6,6 +6,8 @@ var eset = 25;
 var load_sums_wait = 0;
 
 $(document).ready(function() {
+	$('[data-bs-toggle="popover"]').popover();  
+	 $('[data-bs-toggle="popover"]').popover();  
 	$.getJSON('expdata.json?v=20190919', function(data) {
 		var temphead = '';
 		data.forEach(function (batt,i) {
@@ -115,8 +117,7 @@ $(document).ready(function() {
 	});
 	//$('#entryform input:first-of-type').trigger('change');
 	
-	$('[data-toggle="tooltip"]').tooltip();
-	$('[data-bs-toggle="popover"]').popover();  
+	
 	
     //note
 	$(document).on('click', "#note", function(e) {
